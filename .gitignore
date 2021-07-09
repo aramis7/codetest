@@ -1,0 +1,9 @@
+*.class
+out/
+.idea/
+.gradle/
+gradle
+.vertx
+# Project exclude paths
+/build/
+/build/classes/java/main/

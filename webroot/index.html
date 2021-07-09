@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Welcome to KRY</title>
+</head>
+<body>
+<div style="flex-direction: column;display: flex;align-items: center;">
+    <div><p>KRY status poller</p></div>
+    <table id="tblServices" class="display" style="width:60%">
+        <thead>
+        <tr>
+            <th>Service name</th>
+            <th>Url</th>
+            <th>Status</th>
+            <th>Last modify</th>
+            <th>Action</th>
+        </tr>
+        </thead>
+    </table>
+    <div style="flex-direction: row;display: flex;position: relative;">
+        Name:<input type="text" id="alias">
+        Url:<input type="text" id="url-name">
+        <button id="post-service">Add service</button>
+    </div>
+</div>
+</body>
+<link rel="stylesheet" type="text/css" href="static/css/datatables.min.css"/>
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.26.0/moment.min.js"></script>
+<script type="text/javascript" src="https://cdn.datatables.net/plug-ins/1.10.25/dataRender/datetime.js"></script>
+<script type="text/javascript" src="static/datatables.min.js"></script>
+<script src="static/code.js">
+</script>
+</html>
